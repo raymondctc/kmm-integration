@@ -13,6 +13,7 @@ import ModuleA
 struct SimpleLoginApp: App {
     var body: some Scene {
         WindowGroup {
+            let sharedClass = SharedClass(scope: AppCoroutineScope())
             ContentView()
         }
     }

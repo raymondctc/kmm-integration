@@ -12,9 +12,11 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.Toast
+import com.jetbrains.core.AppCoroutineScope
 import com.jetbrains.simplelogin.androidapp.databinding.ActivityLoginBinding
 
 import com.jetbrains.simplelogin.androidapp.R
+import com.jetbrains.simplelogin.data.SharedClass
 
 class LoginActivity : AppCompatActivity() {
 
@@ -23,6 +25,8 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val sharedClass = SharedClass(AppCoroutineScope())
 
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
