@@ -6,38 +6,87 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1F464A4FBA283DFB9557D897D2F83FB5 /* module_a */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A162164A435C709E1FCE5E6A48E373E3 /* Build configuration list for PBXAggregateTarget "module_a" */;
+			buildPhases = (
+				BA43906BD64D0625304604F90906F96A /* [CP-User] Build module_a */,
+			);
+			dependencies = (
+			);
+			name = module_a;
+			productName = module_a;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		4EF1B7EE05588CAC0F9462C418252889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5C9766FC60FC00598AFC15B670C51EEE /* Pods-SimpleLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B95E6D1EBAD8D8CBF9C9D62B2743067 /* Pods-SimpleLogin-dummy.m */; };
-		B7ED1BBE3755083FEECC33594AFC9823 /* Pods-SimpleLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6AF1906C8FED260A0C8DA580165063 /* Pods-SimpleLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77F74C429D3308B5E8678CB78968C4EC /* Pods-SimpleLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6AF1906C8FED260A0C8DA580165063 /* Pods-SimpleLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B5223F8FDB45A4D8410E438CFA18FCF /* Pods-SimpleLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B95E6D1EBAD8D8CBF9C9D62B2743067 /* Pods-SimpleLogin-dummy.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE9C2DBD473854E4397B4EC7C708ED75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F464A4FBA283DFB9557D897D2F83FB5;
+			remoteInfo = module_a;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1C8B3865990AC00BDFF05B97174EED22 /* Pods-SimpleLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleLogin-Info.plist"; sourceTree = "<group>"; };
+		2A32C75A879310427D16BF6D99A5D31B /* module_a.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = module_a.debug.xcconfig; sourceTree = "<group>"; };
 		338105E3BE87DDB1F1E75F278F54BA74 /* Pods-SimpleLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleLogin.debug.xcconfig"; sourceTree = "<group>"; };
-		4F135CD6473F9B2982EC04077EC3CF78 /* Pods_SimpleLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleLogin.framework; path = "Pods-SimpleLogin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FB47546C46BDED340B19B96EF6C92E1 /* module_a.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = module_a.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F135CD6473F9B2982EC04077EC3CF78 /* Pods_SimpleLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B95E6D1EBAD8D8CBF9C9D62B2743067 /* Pods-SimpleLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleLogin-dummy.m"; sourceTree = "<group>"; };
 		7BA16EA87A2EFBEFBC30FE3DFB006A89 /* Pods-SimpleLogin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleLogin-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F1367B9C32553A5457C71C070B23A7D /* Pods-SimpleLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleLogin.release.xcconfig"; sourceTree = "<group>"; };
 		846CDC928D06D522C6EA4A5A766FF0D8 /* Pods-SimpleLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleLogin.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C5C6D37D169E679375028B69A678C32 /* module_a.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = module_a.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E6AF1906C8FED260A0C8DA580165063 /* Pods-SimpleLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleLogin-umbrella.h"; sourceTree = "<group>"; };
+		A4538C34CF5064EF0D45F08E760A7101 /* ModuleA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModuleA.framework; path = build/cocoapods/framework/ModuleA.framework; sourceTree = "<group>"; };
 		E47C5143BEF1398EE30829BB6E81DC75 /* Pods-SimpleLogin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleLogin-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3EDCA61541A63F17D94B0FC6E354C687 /* Frameworks */ = {
+		9B32B62B7C9EEFFBA1F98B82DBFF3E91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EF1B7EE05588CAC0F9462C418252889 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0171316B874A6DFCF21DEE0FDBD17748 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3FB47546C46BDED340B19B96EF6C92E1 /* module_a.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		177A9108131016F81B1B1E0376B265C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB537A03279895060DE170CA6FE1B8F2 /* module_a */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1A168AA10A5DEE2FC95ACC38397579B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4538C34CF5064EF0D45F08E760A7101 /* ModuleA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		260CF3198E050D816D7AA0828E9373E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,14 +101,6 @@
 				9E70FDF67A21299E01384D6B8B9C3F26 /* Pods-SimpleLogin */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		9E70FDF67A21299E01384D6B8B9C3F26 /* Pods-SimpleLogin */ = {
@@ -78,32 +119,45 @@
 			path = "Target Support Files/Pods-SimpleLogin";
 			sourceTree = "<group>";
 		};
+		AB537A03279895060DE170CA6FE1B8F2 /* module_a */ = {
+			isa = PBXGroup;
+			children = (
+				1A168AA10A5DEE2FC95ACC38397579B8 /* Frameworks */,
+				0171316B874A6DFCF21DEE0FDBD17748 /* Pod */,
+				BECF6DCD677075B570E530FF7019E1D4 /* Support Files */,
+			);
+			name = module_a;
+			path = ../../module_a;
+			sourceTree = "<group>";
+		};
+		BECF6DCD677075B570E530FF7019E1D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A32C75A879310427D16BF6D99A5D31B /* module_a.debug.xcconfig */,
+				9C5C6D37D169E679375028B69A678C32 /* module_a.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../SimpleLogin/Pods/Target Support Files/module_a";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				177A9108131016F81B1B1E0376B265C9 /* Development Pods */,
 				260CF3198E050D816D7AA0828E9373E3 /* Products */,
 				4BC6F843D99271735DE6ECA00F2F7A94 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		82C1A1047B56F08018DB184268ABCF85 /* Headers */ = {
+		313E67B1544A7236180A207809B40F4D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7ED1BBE3755083FEECC33594AFC9823 /* Pods-SimpleLogin-umbrella.h in Headers */,
+				77F74C429D3308B5E8678CB78968C4EC /* Pods-SimpleLogin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,16 +166,17 @@
 /* Begin PBXNativeTarget section */
 		E8B208EE7A23BE05ABCD4C928F2C125F /* Pods-SimpleLogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8716CEF49ED95685E90B2FE3185E39B6 /* Build configuration list for PBXNativeTarget "Pods-SimpleLogin" */;
+			buildConfigurationList = 1E57EEEA605D453112E64272EFE71A95 /* Build configuration list for PBXNativeTarget "Pods-SimpleLogin" */;
 			buildPhases = (
-				82C1A1047B56F08018DB184268ABCF85 /* Headers */,
-				63FBFB89628040039665827113543262 /* Sources */,
-				3EDCA61541A63F17D94B0FC6E354C687 /* Frameworks */,
-				6EE32C0C51511F7637E8C6D0D6118DC7 /* Resources */,
+				313E67B1544A7236180A207809B40F4D /* Headers */,
+				943BBAF5570660B1135AC7B37DAC2E81 /* Sources */,
+				9B32B62B7C9EEFFBA1F98B82DBFF3E91 /* Frameworks */,
+				61102F3C6616104E74B1B4BF42109686 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C384217A906F017D5DE0D079C3639196 /* PBXTargetDependency */,
 			);
 			name = "Pods-SimpleLogin";
 			productName = "Pods-SimpleLogin";
@@ -150,13 +205,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1F464A4FBA283DFB9557D897D2F83FB5 /* module_a */,
 				E8B208EE7A23BE05ABCD4C928F2C125F /* Pods-SimpleLogin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6EE32C0C51511F7637E8C6D0D6118DC7 /* Resources */ = {
+		61102F3C6616104E74B1B4BF42109686 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,18 +221,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BA43906BD64D0625304604F90906F96A /* [CP-User] Build module_a */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Build module_a";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../gradlew\" -p \"$REPO_ROOT\" :module_a:syncFramework                     -Pkotlin.native.cocoapods.target=$KOTLIN_TARGET                     -Pkotlin.native.cocoapods.configuration=$CONFIGURATION                     -Pkotlin.native.cocoapods.cflags=\"$OTHER_CFLAGS\"                     -Pkotlin.native.cocoapods.paths.headers=\"$HEADER_SEARCH_PATHS\"                     -Pkotlin.native.cocoapods.paths.frameworks=\"$FRAMEWORK_SEARCH_PATHS\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		63FBFB89628040039665827113543262 /* Sources */ = {
+		943BBAF5570660B1135AC7B37DAC2E81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C9766FC60FC00598AFC15B670C51EEE /* Pods-SimpleLogin-dummy.m in Sources */,
+				8B5223F8FDB45A4D8410E438CFA18FCF /* Pods-SimpleLogin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C384217A906F017D5DE0D079C3639196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = module_a;
+			target = 1F464A4FBA283DFB9557D897D2F83FB5 /* module_a */;
+			targetProxy = AE9C2DBD473854E4397B4EC7C708ED75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		325BDAF74E0FEEE957CEA4CF7BA5FB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338105E3BE87DDB1F1E75F278F54BA74 /* Pods-SimpleLogin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleLogin/Pods-SimpleLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleLogin/Pods-SimpleLogin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43180773C349DB4092CD2E4EB706FC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1367B9C32553A5457C71C070B23A7D /* Pods-SimpleLogin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleLogin/Pods-SimpleLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleLogin/Pods-SimpleLogin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -243,43 +396,22 @@
 			};
 			name = Debug;
 		};
-		86362B3A4E02710C46EBE946AC786629 /* Release */ = {
+		7868E1694884CA3DC2DB8F9554F9BCC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F1367B9C32553A5457C71C070B23A7D /* Pods-SimpleLogin.release.xcconfig */;
+			baseConfigurationReference = 2A32C75A879310427D16BF6D99A5D31B /* module_a.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleLogin/Pods-SimpleLogin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleLogin/Pods-SimpleLogin.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -343,46 +475,36 @@
 			};
 			name = Release;
 		};
-		B25701BA80E13AFDE75DC65EE8ECF529 /* Debug */ = {
+		B90CCBF9A6B7F7A18774067685EAEA00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 338105E3BE87DDB1F1E75F278F54BA74 /* Pods-SimpleLogin.debug.xcconfig */;
+			baseConfigurationReference = 9C5C6D37D169E679375028B69A678C32 /* module_a.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleLogin/Pods-SimpleLogin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleLogin/Pods-SimpleLogin.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1E57EEEA605D453112E64272EFE71A95 /* Build configuration list for PBXNativeTarget "Pods-SimpleLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325BDAF74E0FEEE957CEA4CF7BA5FB90 /* Debug */,
+				43180773C349DB4092CD2E4EB706FC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -392,11 +514,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8716CEF49ED95685E90B2FE3185E39B6 /* Build configuration list for PBXNativeTarget "Pods-SimpleLogin" */ = {
+		A162164A435C709E1FCE5E6A48E373E3 /* Build configuration list for PBXAggregateTarget "module_a" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B25701BA80E13AFDE75DC65EE8ECF529 /* Debug */,
-				86362B3A4E02710C46EBE946AC786629 /* Release */,
+				7868E1694884CA3DC2DB8F9554F9BCC3 /* Debug */,
+				B90CCBF9A6B7F7A18774067685EAEA00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

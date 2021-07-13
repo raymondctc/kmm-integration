@@ -3,7 +3,10 @@ import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    kotlin("native.cocoapods")
 }
+
+version = "1.0"
 
 kotlin {
     android()
@@ -14,13 +17,14 @@ kotlin {
         else
             ::iosX64
 
-    iosTarget("ios") {
-        binaries {
-            framework {
-                baseName = "ModuleA"
-            }
-        }
+    iosTarget("ios") {}
+    cocoapods {
+        summary = "Some description for the Shared Module"
+        homepage = "Link to the Shared Module homepage"
+        ios.deploymentTarget = "11.0"
+        frameworkName = "ModuleA"
     }
+
     sourceSets {
         val commonMain by getting {
             dependencies {

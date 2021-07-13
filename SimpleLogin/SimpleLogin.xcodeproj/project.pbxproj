@@ -339,8 +339,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleLogin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../module_core/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../module_core/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../module_a/build/cocoapods/framework",
+					"$(SRCROOT)/../module_core/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/../module_a/build/cocoapods/framework",
+					"$(SRCROOT)/../module_core/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+				);
 				INFOPLIST_FILE = SimpleLogin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -369,10 +375,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleLogin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../module_core/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
 					"$(SRCROOT)/../module_core/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
-					"$(SRCROOT)/../module_a/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/../module_a/build/cocoapods/framework",
+					"$(SRCROOT)/../module_core/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
 				INFOPLIST_FILE = SimpleLogin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
