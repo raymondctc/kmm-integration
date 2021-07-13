@@ -17,16 +17,12 @@ kotlin {
     iosTarget("ios") {
         binaries {
             framework {
-                baseName = "ModuleA"
+                baseName = "ModuleCore"
             }
         }
     }
     sourceSets {
-        val commonMain by getting {
-            dependencies {
-                api(project(":module_core"))
-            }
-        }
+        val commonMain by getting
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test-common"))

@@ -1,3 +1,4 @@
 rootProject.name = "SimpleLogin"
 include ':app'
 include ':module_a'
+include ':module_core'
